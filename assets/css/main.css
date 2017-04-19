@@ -1,14 +1,22 @@
 * {
 	margin: 0;
 	padding: 0;
+	font-family: sans-serif;
 }
 
 .grass {
 	width: 600px;
-	height: 300px;
+	height: 320px;
 	background: green;
 	margin: 10% auto;
 	position: relative;
+}
+
+span {
+	font-size: 10px;
+	bottom: 3px;
+	right: 20px;
+	position: absolute;
 }
 
 .grass div {
@@ -17,7 +25,7 @@
 
 .cancha {
 	width: 560px;
-	height: 260px;
+	height: 280px;
 	top: 20px;
 	left: 20px;
 	position: relative;
@@ -25,20 +33,20 @@
 
 .arco-left {
 	width: 80px;
-	height: 130px;
+	height: 140px;
 	position: absolute;
-	left: 0;
-	top: 60px
+	left: -2px;
+	top: 70px;
 }
 
 .arco-right {
 	width: 80px;
-	height: 130px;
+	height: 140px;
 	position: absolute;
-	right: 0;
-	top: 60px
+	right: -2px;
+	top: 70px;
 }
-
+/*
 .grass > .elipse {
 	border-radius: 100%;
 	background: white;
@@ -46,7 +54,7 @@
 	height: 10px;
 	position: absolute;
 }
-
+*/
 .centro-cancha {
 	width: 80px;
 	height: 80px;
@@ -61,6 +69,27 @@
 	background: white;
 	width: 10px;
 	height: 10px;
-	top: 5px;
+	top: -1px;
+	right: -8px;
+	position: absolute;
+}
+
+#elipse-2 {
+	border-radius: 100%;
+	background: white;
+	width: 10px;
+	height: 10px;
+	top: -50px;
+	left: 10px;
+	position: absolute;
+}
+
+#elipse-3 {
+	border-radius: 100%;
+	background: white;
+	width: 10px;
+	height: 10px;
+	bottom: -1px;
+	left: -14px;
 	position: absolute;
 }
